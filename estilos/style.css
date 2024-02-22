@@ -12,38 +12,40 @@ background-color: rgb(36, 36, 36);
 
 }
 
-div#sol{
-    width: 90px;
-    height: 200px;
-}
-
-div#sol > img{
+img#sol{
+    display: inline;
     border-radius: 50%;
     box-shadow: 10px 0px 15px rgba(255, 123, 0, 0.836);
     transform: translate(-60%, 30%);
 }
 
-div#sol > img:hover{
-    border: 2px solid rgb(119, 50, 4);
+img#sol:hover{
+    border: 2px solid rgb(255, 255, 255);
     margin-left: 6px;
-
 }
 
-div#merc{
-    width: 90px;
-    height: 200px;
-}
-
-div#merc > img{
+img#merc{
+    display: inline;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    box-shadow: 10px 0px 15px rgba(255, 123, 0, 0);
-    transform: translate(230%, -20%);
+    transform: translate(-180%, -20%);
 }
 
-div#merc > img:hover{
-    border: 2px solid rgb(175, 174, 173);
+img#merc:hover{
+    border: 2px solid rgb(255, 255, 255);
     margin: 1px;
+}
 
+img#venus{
+    display: inline;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: translate(-110%, -4%); 
+}
+
+img#venus:hover{
+    border: 2px solid rgb(255, 255, 255);
+    
 }
